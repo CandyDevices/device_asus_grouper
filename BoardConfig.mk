@@ -38,6 +38,10 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/asus/grouper
 -include vendor/asus/grouper/BoardConfigVendor.mk
 include device/asus/grouper/BoardConfigCommon.mk
 
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8-sm/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+SUGARRUSH=true
+
 TARGET_RECOVERY_FSTAB = device/asus/grouper/fstab.grouper
 
 MALLOC_IMPL := dlmalloc
