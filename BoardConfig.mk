@@ -41,13 +41,6 @@ include device/asus/grouper/BoardConfigCommon.mk
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8-sm/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
-# Rom Optimization
-USE_GRAPHITE := true
-USE_FSTRICT_FLAGS := true
-FSTRICT_ALIASING_WARNING_LEVEL := 3
-USE_BINARY_FLAGS := true
-USE_EXTRA_CLANG_FLAGS := true
-USE_LTO := true
 
 
 TARGET_RECOVERY_FSTAB = device/asus/grouper/fstab.grouper
