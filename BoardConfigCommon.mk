@@ -90,9 +90,6 @@ TARGET_KERNEL_SOURCE := kernel/asus/grouper
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.3/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
-# Changelog
-LIQUID_CHANGELOG := true
-
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 
 BOARD_SEPOLICY_DIRS += device/asus/grouper/sepolicy
